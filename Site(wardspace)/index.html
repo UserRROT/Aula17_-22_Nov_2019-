@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<title>Formulário</title>
+	<meta charset="utf-8">
+</head>
+<body>
+
+
+	<fieldset>
+		<form id="cadastro" name="cadastro" method="post"  action="cadastroawardspace.php">
+			<p>Campos com * são de preenchimento obrigatório!</p>
+			<table>
+				<tr>	<td>*Nome:</td>
+					<td><input type="text" name="nome" id="nome" required></td>
+				</tr>
+				<tr>
+					<td>Telefone:</td>
+					<td><input type="text" name="telefone" id="telefone" ></td>
+				</tr>
+				<tr>
+					<td>*E-mail:</td>
+					<td><input type="email" name="email" id="email" required></td>
+				</tr>
+				<tr>
+					<td>*Cidade:</td>
+					<td><input type="text" name="cidade" id="cidade" required></td>
+				</tr>
+				<tr>
+					<td><input required name = "cadastrar"  type="submit" id="cadastrar" value="Enviar"></td>
+					<td><input type="reset" id="limpar" value="Limpar"></td>
+				</tr>
+			</table>
+		</form>
+	</fieldset>
+
+
+</body>
+</html>
